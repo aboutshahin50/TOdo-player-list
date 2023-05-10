@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="button"] {
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+ul {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+li p {
+  margin: 0;
+  padding: 0;
+}
+
+li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+li button.edit {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+li button.edit:hover {
+  background-color: #3e8e41;
+}
+
+li button.delete {
+  background-color: #f44336;
+  color: #fff;
+}
+
+li button.delete:hover {
+  background-color: #da190b;
+}
+/* Strike-through effect for completed todo items */
+.done {
+  text-decoration: line-through;
+}
+
+/* Style for the buttons */
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
